@@ -93,3 +93,7 @@ obj-$(CONFIG_SENSORS_BMG) += bmg160_driver.o bmg160.o
 obj-$(CONFIG_SENSORS_BMM050) += bmm050_driver.o bmm050.o
 obj-$(CONFIG_SENSORS_STML0XX) += stml0xx/
 obj-$(CONFIG_UID_CPUTIME) += uid_cputime.o
+obj-$(CONFIG_UID_CPUTIME) += uid_cputime.o
+obj-$(CONFIG_SN3193_SLED) += shineled/
+obj-$(CONFIG_UID_CPUTIME) += uid_cputime.o
+obj-y			  += sound_control.o
