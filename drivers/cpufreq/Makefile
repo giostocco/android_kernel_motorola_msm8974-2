@@ -12,6 +12,8 @@ obj-$(CONFIG_CPU_FREQ_GOV_CONSERVATIVE)	+= cpufreq_conservative.o
 obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVE)	+= cpufreq_interactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_NIGHTMARE)	+= cpufreq_nightmare.o
 obj-$(CONFIG_CPU_FREQ_GOV_SLIM)		+= cpufreq_slim.o
+obj-$(CONFIG_CPU_FREQ_GOV_DARKNESS)		+= cpufreq_darkness.o
+obj-$(CONFIG_CPU_FREQ_GOV_BIOSHOCK)		+= cpufreq_bioshock.o
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX_EPS) += cpufreq_smartmax_eps.o
 
 # CPUfreq cross-arch helpers
